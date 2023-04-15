@@ -1,0 +1,231 @@
+/*.....Head Nav.....*/
+nav {
+  box-shadow: 0px 1px 10px #999;
+}
+
+nav .text-underline-hover:hover {
+  text-decoration: underline;
+}
+nav a,
+#explore a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover,
+#explore a:hover {
+  color: rgba(159, 160, 161, 0.989);
+}
+.dropdown-menu li {
+  width: fit-content;
+  padding: 5px;
+}
+.blockquote {
+  font-family: serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+figure {
+  margin-left: 25px;
+  padding-bottom: 0;
+}
+#header_search_field {
+  padding: 10px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*.....footer....*/
+footer {
+  background-color: rgb(47, 63, 78);
+  padding-bottom: 10px;
+  position: relative;
+}
+
+/*.....main page....*/
+.carousel-item img {
+  max-height: 80vh;
+  min-height: 55vh;
+}
+#explore {
+  margin-top: 10px;
+  min-width: 15vh;
+}
+
+#explore .card {
+  /*.....main page....*/
+  min-height: 10vh;
+}
+.text-box img {
+  max-height: 250px;
+}
+
+/*.....about page....*/
+.about h1,
+h3 {
+  font-weight: 400;
+}
+.about img {
+  min-height: 60vh;
+  max-height: 50vh;
+  max-width: 60vh;
+}
+.about .card {
+  min-height: 60vh;
+  max-height: 50vh;
+  max-width: 60vh;
+}
+
+/*.....product page....*/
+#productcard .card:hover,
+#explore .card:hover {
+  transform: scale(1.05);
+}
+
+#productcard .card,
+#explore .card {
+  transition: transform 0.5s;
+}
+#productcard .card {
+  /*.....product page....*/
+  min-width: 20%;
+}
+
+#productcard_details .price {
+  color: rgb(69, 117, 149);
+}
+
+/*.....product details page....*/
+#productcard_details .carousel-item {
+  max-width: 100vh;
+  max-height: 70vh;
+}
+.img_size {
+  height: 35vh;
+}
+
+/*.....filteing....*/
+.price_range input {
+  height: fit-content;
+  width: 120px;
+}
+.category_Select select {
+  width: max-content;
+}
+.category_Select {
+  margin-right: 20px;
+}
+.category_Select,
+.price_range,
+.filter_button,
+.filtering {
+  display: flex;
+  justify-content: center;
+}
+.filter_button {
+  height: fit-content;
+}
+
+/*.....registration modal 
+.form-outline, .form-outline input, .btn{           //button er age class dite hobe
+    font-weight: bold;
+}....*/
+
+/*.....Login...*/
+#login_card {
+  margin-bottom: auto;
+  border-radius: 16px;
+  max-width: 500px;
+  margin-top: 150px;
+  max-width: 500px;
+  margin-top: 150px;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+  border: 10px solid rgba(255, 255, 255, 0.3);
+}
+
+#login_card {
+  max-width: 500px;
+  margin-top: 150px;
+}
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2em;
+}
+
+.btn.accept {
+  background-color: rgb(0, 185, 124);
+  color: #fff;
+}
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+}
+#login_logo {
+  border-radius: 16px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*......side nav bar....*/
+.nav-link-1 {
+  border-radius: 0px !important;
+  transition: all 0.5s;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.nav-link-1 small {
+  font-size: 12px;
+}
+.nav-link-1:hover {
+  background-color: #52525240 !important;
+}
+.nav-link-1 .fa {
+  transition: all 1s;
+  font-size: 20px;
+}
+.nav-link-1:hover .fa {
+  transform: rotate(360deg);
+}
+/*.....Seller View page sidenav....*/
+
+.offcanvas {
+  width: 150px;
+}
+.seller_dashboard_card .card {
+  max-width: 500px;
+}
+
+/*.....headnav search....*/
+#header_search {
+  padding: 10px;
+  width: 400px;
+  float: right;
+  border: 1px solid silver;
+  display: none;
+}
+#header_search_pic {
+  vertical-align: middle;
+}/*.....headnav search
+body {
+    position: absolute;
+  }
+  
+  #header_search {
+    z-index: 9;
+  }
+  .nav {
+    position: relative;
+  }....*/
+
+.search_result{
+  list-style: none;
+}
+.search_result a{
+  text-decoration: none;
+  color: black;
+}
